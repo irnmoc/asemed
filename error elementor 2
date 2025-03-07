@@ -1,0 +1,1652 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Pago &#8211; asemed</title>
+<meta name='robots' content='max-image-preview:large' />
+<script>
+	( function() {
+		var query = document.location.search;
+
+		if ( query && query.indexOf( 'preview=true' ) !== -1 ) {
+			window.name = 'wp-preview-2575';
+		}
+
+		if ( window.addEventListener ) {
+			window.addEventListener( 'pagehide', function() { window.name = ''; } );
+		}
+	}());
+	
+</script>
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="asemed &raquo; Feed" href="https://www.asemed.org/feed/" />
+<link rel="alternate" type="application/rss+xml" title="asemed &raquo; Feed de los comentarios" href="https://www.asemed.org/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="asemed &raquo; Productos Feed" href="https://www.asemed.org/pago/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.asemed.org\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.7.2"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\u2b1b","\ud83d\udc26\u200b\u2b1b")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel='stylesheet' id='dashicons-css' href='https://www.asemed.org/wp-includes/css/dashicons.min.css?ver=6.7.2' media='all' />
+<link rel='stylesheet' id='admin-bar-css' href='https://www.asemed.org/wp-includes/css/admin-bar.min.css?ver=6.7.2' media='all' />
+<style id='admin-bar-inline-css'>
+
+		@media screen { html { margin-top: 32px !important; } }
+		@media screen and ( max-width: 782px ) { html { margin-top: 46px !important; } }
+	
+@media print { #wpadminbar { display:none; } }
+</style>
+<link rel='stylesheet' id='elementor-icons-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.35.0' media='all' />
+<link rel='stylesheet' id='elementor-common-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='e-theme-ui-light-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.27.6' media='all' />
+<style id='wp-emoji-styles-inline-css'>
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.asemed.org/wp-includes/css/dist/block-library/style.min.css?ver=6.7.2' media='all' />
+<style id='joinchat-button-style-inline-css'>
+.wp-block-joinchat-button{border:none!important;text-align:center}.wp-block-joinchat-button figure{display:table;margin:0 auto;padding:0}.wp-block-joinchat-button figcaption{font:normal normal 400 .6em/2em var(--wp--preset--font-family--system-font,sans-serif);margin:0;padding:0}.wp-block-joinchat-button .joinchat-button__qr{background-color:#fff;border:6px solid #25d366;border-radius:30px;box-sizing:content-box;display:block;height:200px;margin:auto;overflow:hidden;padding:10px;width:200px}.wp-block-joinchat-button .joinchat-button__qr canvas,.wp-block-joinchat-button .joinchat-button__qr img{display:block;margin:auto}.wp-block-joinchat-button .joinchat-button__link{align-items:center;background-color:#25d366;border:6px solid #25d366;border-radius:30px;display:inline-flex;flex-flow:row nowrap;justify-content:center;line-height:1.25em;margin:0 auto;text-decoration:none}.wp-block-joinchat-button .joinchat-button__link:before{background:transparent var(--joinchat-ico) no-repeat center;background-size:100%;content:"";display:block;height:1.5em;margin:-.75em .75em -.75em 0;width:1.5em}.wp-block-joinchat-button figure+.joinchat-button__link{margin-top:10px}@media (orientation:landscape)and (min-height:481px),(orientation:portrait)and (min-width:481px){.wp-block-joinchat-button.joinchat-button--qr-only figure+.joinchat-button__link{display:none}}@media (max-width:480px),(orientation:landscape)and (max-height:480px){.wp-block-joinchat-button figure{display:none}}
+
+</style>
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-family--inter: "Inter", sans-serif;--wp--preset--font-family--cardo: Cardo;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-cardo-font-family{font-family: var(--wp--preset--font-family--cardo) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='woocommerce-layout-css' href='https://www.asemed.org/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=9.7.1' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='https://www.asemed.org/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=9.7.1' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css' href='https://www.asemed.org/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=9.7.1' media='all' />
+<style id='woocommerce-inline-inline-css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='brands-styles-css' href='https://www.asemed.org/wp-content/plugins/woocommerce/assets/css/brands.css?ver=9.7.1' media='all' />
+<link rel='stylesheet' id='hello-elementor-css' href='https://www.asemed.org/wp-content/themes/hello-elementor/style.min.css?ver=3.3.0' media='all' />
+<link rel='stylesheet' id='hello-elementor-theme-style-css' href='https://www.asemed.org/wp-content/themes/hello-elementor/theme.min.css?ver=3.3.0' media='all' />
+<link rel='stylesheet' id='hello-elementor-header-footer-css' href='https://www.asemed.org/wp-content/themes/hello-elementor/header-footer.min.css?ver=3.3.0' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='elementor-post-8-css' href='https://www.asemed.org/wp-content/uploads/elementor/css/post-8.css?ver=1741357874' media='all' />
+<link rel='stylesheet' id='widget-icon-list-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/widget-icon-list.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInUp-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInUp.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='widget-nav-menu-css' href='https://www.asemed.org/wp-content/plugins/elementor-pro/assets/css/widget-nav-menu.min.css?ver=3.27.5' media='all' />
+<link rel='stylesheet' id='e-animation-fadeInDown-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/lib/animations/styles/fadeInDown.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='e-sticky-css' href='https://www.asemed.org/wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css?ver=3.27.5' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='widget-icon-box-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='widget-text-editor-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='widget-loop-common-css' href='https://www.asemed.org/wp-content/plugins/elementor-pro/assets/css/widget-loop-common.min.css?ver=3.27.5' media='all' />
+<link rel='stylesheet' id='widget-loop-grid-css' href='https://www.asemed.org/wp-content/plugins/elementor-pro/assets/css/widget-loop-grid.min.css?ver=3.27.5' media='all' />
+<link rel='stylesheet' id='widget-menu-anchor-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/widget-menu-anchor.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='elementor-pro-notes-frontend-css' href='https://www.asemed.org/wp-content/plugins/elementor-pro/assets/css/modules/notes.min.css?ver=3.27.5' media='all' />
+<link rel='stylesheet' id='elementor-wp-admin-bar-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/css/admin-bar.min.css?ver=3.27.6' media='all' />
+<link rel='stylesheet' id='elementor-post-22-css' href='https://www.asemed.org/wp-content/uploads/elementor/css/post-22.css?ver=1741357874' media='all' />
+<link rel='stylesheet' id='elementor-post-1414-css' href='https://www.asemed.org/wp-content/uploads/elementor/css/post-1414.css?ver=1741357874' media='all' />
+<link rel='stylesheet' id='elementor-post-2540-css' href='https://www.asemed.org/wp-content/uploads/elementor/css/post-2540.css?ver=1741357874' media='all' />
+<link rel='stylesheet' id='joinchat-css' href='https://www.asemed.org/wp-content/plugins/creame-whatsapp-me/public/css/joinchat.min.css?ver=5.2.3' media='all' />
+<style id='joinchat-inline-css'>
+.joinchat{--red:37;--green:211;--blue:102;--bw:100}
+</style>
+<link rel='stylesheet' id='google-fonts-1-css' href='https://fonts.googleapis.com/css?family=PT+Serif%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CMontserrat%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.7.2' media='all' />
+<link rel='stylesheet' id='elementor-icons-shared-0-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3' media='all' />
+<link rel='stylesheet' id='elementor-icons-fa-solid-css' href='https://www.asemed.org/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3' media='all' />
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin><script src="https://www.asemed.org/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.9.7.1" id="jquery-blockui-js" defer data-wp-strategy="defer"></script>
+<script src="https://www.asemed.org/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.9.7.1" id="js-cookie-js" defer data-wp-strategy="defer"></script>
+<script id="woocommerce-js-extra">
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_password_show":"Mostrar contrase\u00f1a","i18n_password_hide":"Ocultar contrase\u00f1a"};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=9.7.1" id="woocommerce-js" defer data-wp-strategy="defer"></script>
+<script id="elementor-pro-app-js-before">
+var elementorAppProConfig = {"baseUrl":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor-pro\/","site-editor":{"urls":{"legacy_view":"https:\/\/www.asemed.org\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"},"utms":{"utm_source":"theme-builder","utm_medium":"wp-dash"}},"kit-library":[],"onboarding":[],"import-export":[]};
+</script>
+<link rel="https://api.w.org/" href="https://www.asemed.org/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.asemed.org/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.7.2" />
+<meta name="generator" content="WooCommerce 9.7.1" />
+	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 3.27.6; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+<style>
+				#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge {
+					padding: 7px 0;
+				}
+
+				#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge a.ab-item {
+					/* Layout  */
+					background-color: #F6F7F7;
+					border-radius: 2px;
+					display: flex;
+					height: 18px;
+					padding: 0px 6px;
+					align-items: center;
+					gap: 8px;
+
+					/* Typography  */
+					color: #3C434A;
+					font-size: 12px;
+					font-style: normal;
+					font-weight: 500;
+					line-height: 16px;
+				}
+
+				#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge a.ab-item:hover,
+				#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge a.ab-item:focus {
+					background-color: #DCDCDE;
+				}
+
+				#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge a.ab-item:focus {
+					outline: var(--wp-admin-border-width-focus) solid var(--wp-admin-theme-color-darker-20);
+				}
+
+				#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge.woocommerce-site-status-badge-live a.ab-item {
+					background-color: #E6F2E8;
+					color: #00450C;
+				}
+
+				#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge.woocommerce-site-status-badge-live a.ab-item:hover,
+				#wpadminbar .quicklinks #wp-admin-bar-woocommerce-site-visibility-badge.woocommerce-site-status-badge-live a.ab-item:focus {
+					background-color: #B8E6BF;
+				}
+			</style>			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<style class='wp-fonts-local'>
+@font-face{font-family:Inter;font-style:normal;font-weight:300 900;font-display:fallback;src:url('https://www.asemed.org/wp-content/plugins/woocommerce/assets/fonts/Inter-VariableFont_slnt,wght.woff2') format('woff2');font-stretch:normal;}
+@font-face{font-family:Cardo;font-style:normal;font-weight:400;font-display:fallback;src:url('https://www.asemed.org/wp-content/plugins/woocommerce/assets/fonts/cardo_normal_400.woff2') format('woff2');}
+</style>
+<link rel="icon" href="https://www.asemed.org/wp-content/uploads/2023/09/android-chrome-512x512-1-100x100.png" sizes="32x32" />
+<link rel="icon" href="https://www.asemed.org/wp-content/uploads/2023/09/android-chrome-512x512-1-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://www.asemed.org/wp-content/uploads/2023/09/android-chrome-512x512-1-300x300.png" />
+<meta name="msapplication-TileImage" content="https://www.asemed.org/wp-content/uploads/2023/09/android-chrome-512x512-1-300x300.png" />
+</head>
+<body class="archive post-type-archive post-type-archive-product logged-in admin-bar no-customize-support wp-custom-logo wp-embed-responsive theme-hello-elementor woocommerce-shop woocommerce woocommerce-page woocommerce-no-js theme-default elementor-page-2540 elementor-default elementor-template-full-width elementor-kit-8">
+
+<script>
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+				request = true;
+	
+			b[c] = b[c].replace( rcs, ' ' );
+			// The customizer requires postMessage and CORS (if the site is cross domain).
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	
+</script>
+		<div id="wpadminbar" class="nojq nojs">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Barra de herramientas">
+				<ul role='menu' id='wp-admin-bar-root-default' class="ab-top-menu"><li role='group' id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.asemed.org/wp-admin/about.php'><span class="ab-icon" aria-hidden="true"></span><span class="screen-reader-text">Acerca de WordPress</span></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Acerca de WordPress' id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li role='group' id='wp-admin-bar-about'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/about.php'>Acerca de WordPress</a></li><li role='group' id='wp-admin-bar-contribute'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/contribute.php'>Únete</a></li></ul><ul role='menu' aria-label='Acerca de WordPress' id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li role='group' id='wp-admin-bar-wporg'><a class='ab-item' role="menuitem" href='https://es.wordpress.org/'>WordPress.org</a></li><li role='group' id='wp-admin-bar-documentation'><a class='ab-item' role="menuitem" href='https://wordpress.org/documentation/'>Documentación</a></li><li role='group' id='wp-admin-bar-learn'><a class='ab-item' role="menuitem" href='https://learn.wordpress.org/'>Aprende WordPress</a></li><li role='group' id='wp-admin-bar-support-forums'><a class='ab-item' role="menuitem" href='https://es.wordpress.org/support/'>Soporte</a></li><li role='group' id='wp-admin-bar-feedback'><a class='ab-item' role="menuitem" href='https://es.wordpress.org/support/forum/comunidad/peticiones-y-feedback/'>Sugerencias</a></li></ul></div></li><li role='group' id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.asemed.org/wp-admin/'>asemed</a><div class="ab-sub-wrapper"><ul role='menu' aria-label='asemed' id='wp-admin-bar-site-name-default' class="ab-submenu"><li role='group' id='wp-admin-bar-dashboard'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/'>Escritorio</a></li><li role='group' id='wp-admin-bar-plugins'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/plugins.php'>Plugins</a></li></ul><ul role='menu' aria-label='asemed' id='wp-admin-bar-appearance' class="ab-submenu"><li role='group' id='wp-admin-bar-themes'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/themes.php'>Temas</a></li><li role='group' id='wp-admin-bar-menus'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/nav-menus.php'>Menús</a></li></ul></div></li><li role='group' id='wp-admin-bar-woocommerce-site-visibility-badge' class="woocommerce-site-status-badge-live"><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/admin.php?page=wc-settings&#038;tab=site-visibility'>Visible</a></li><li role='group' id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/customize.php?url=https%3A%2F%2Fwww.asemed.org%2Fpago%2F%3Fpreview_id%3D1940%26preview_nonce%3D491d6783bb%26preview%3Dtrue'>Personalizar</a></li><li role='group' id='wp-admin-bar-updates'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/update-core.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label" aria-hidden="true">1</span><span class="screen-reader-text updates-available-text">1 actualización disponible</span></a></li><li role='group' id='wp-admin-bar-comments'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/edit-comments.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label awaiting-mod pending-count count-18" aria-hidden="true">18</span><span class="screen-reader-text comments-in-moderation-text">18 comentarios en moderación</span></a></li><li role='group' id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.asemed.org/wp-admin/post-new.php'><span class="ab-icon" aria-hidden="true"></span><span class="ab-label">Añadir</span></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Añadir' id='wp-admin-bar-new-content-default' class="ab-submenu"><li role='group' id='wp-admin-bar-new-post'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/post-new.php'>Entrada</a></li><li role='group' id='wp-admin-bar-new-media'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/media-new.php'>Medio</a></li><li role='group' id='wp-admin-bar-new-page'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/post-new.php?post_type=page'>Página</a></li><li role='group' id='wp-admin-bar-new-e-landing-page'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-landing-page&#038;template_type=landing-page&#038;_wpnonce=c75c6a415a#library'>Página de destino</a></li><li role='group' id='wp-admin-bar-new-e-floating-buttons'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/edit.php?action=elementor_new_post&#038;post_type=e-floating-buttons&#038;template_type=floating-buttons&#038;_wpnonce=c75c6a415a'>Elemento flotante</a></li><li role='group' id='wp-admin-bar-new-elementor_library'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/post-new.php?post_type=elementor_library'>Plantilla</a></li><li role='group' id='wp-admin-bar-new-product'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/post-new.php?post_type=product'>Producto</a></li><li role='group' id='wp-admin-bar-new-shop_order'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/post-new.php?post_type=shop_order'>Pedido</a></li><li role='group' id='wp-admin-bar-new-shop_coupon'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/post-new.php?post_type=shop_coupon'>Cupón</a></li><li role='group' id='wp-admin-bar-new-user'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/user-new.php'>Usuario</a></li></ul></div></li><li role='group' id='wp-admin-bar-elementor_notes'><a class='ab-item' role="menuitem" href='#'>Notas</a></li><li role='group' id='wp-admin-bar-elementor_inspector' class="menupop"><div class="ab-item ab-empty-item" role="menuitem" aria-expanded="false">Depurador de Elementor</div><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-elementor_inspector-default' class="ab-submenu"><li role='group' id='wp-admin-bar-elementor_inspector_theme' class="menupop"><div class="ab-item ab-empty-item" role="menuitem" aria-expanded="false"><span class="wp-admin-bar-arrow" aria-hidden="true"></span>Theme</div><div class="ab-sub-wrapper"><ul role='menu' id='wp-admin-bar-elementor_inspector_theme-default' class="ab-submenu"><li role='group' id='wp-admin-bar-elementor_inspector_log_theme_0'><div class="ab-item ab-empty-item" role="menuitem" target='_blank'>Location: Archivo > Template File: Location Settings (Override) > Elementor - header-footer.php</div></li></ul></div></li></ul></div></li></ul><ul role='menu' id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li role='group' id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' role="menuitem" aria-expanded="false" href='https://www.asemed.org/wp-admin/profile.php'>Hola, <span class="display-name">irene</span><img alt='' src='https://secure.gravatar.com/avatar/441c2c16b17911841c1d2fd9e8eaf498?s=26&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/441c2c16b17911841c1d2fd9e8eaf498?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' decoding='async'/></a><div class="ab-sub-wrapper"><ul role='menu' aria-label='Hola, irene' id='wp-admin-bar-user-actions' class="ab-submenu"><li role='group' id='wp-admin-bar-user-info'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-admin/profile.php'><img alt='' src='https://secure.gravatar.com/avatar/441c2c16b17911841c1d2fd9e8eaf498?s=64&#038;d=mm&#038;r=g' srcset='https://secure.gravatar.com/avatar/441c2c16b17911841c1d2fd9e8eaf498?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' decoding='async'/><span class='display-name'>irene</span><span class='display-name edit-profile'>Editar perfil</span></a></li><li role='group' id='wp-admin-bar-logout'><a class='ab-item' role="menuitem" href='https://www.asemed.org/wp-login.php?action=logout&#038;_wpnonce=49d51e825f'>Salir</a></li></ul></div></li><li role='group' id='wp-admin-bar-search' class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1" role="menuitem"><form action="https://www.asemed.org/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Buscar</label><input type="submit" class="adminbar-button" value="Buscar" /></form></div></li></ul>			</div>
+		</div>
+
+		
+<a class="skip-link screen-reader-text" href="#content">Ir al contenido</a>
+
+		<header data-elementor-type="header" data-elementor-id="22" class="elementor elementor-22 elementor-location-header" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-16ea6f74 elementor-hidden-desktop elementor-hidden-tablet e-flex e-con-boxed e-con e-parent" data-id="16ea6f74" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-190df785 elementor-icon-list--layout-inline elementor-align-left elementor-mobile-align-left elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="190df785" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="tel:638916780">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone"></i>						</span>
+										<span class="elementor-icon-list-text">Info: 638 916 780</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="tel:622424318">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone"></i>						</span>
+										<span class="elementor-icon-list-text">Urgencias: 622 424 318</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="mailto:info@asemed.org">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-envelope"></i>						</span>
+										<span class="elementor-icon-list-text">info@asemed.org</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://maps.app.goo.gl/r7BBhwvUWkZJSwWg8">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
+										<span class="elementor-icon-list-text">C/ de Bravo Murillo, 147, Entl. Madrid</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-06a5f30 e-flex e-con-boxed e-con e-parent" data-id="06a5f30" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-c4ff87d elementor-button-info elementor-align-center elementor-widget elementor-widget-button" data-id="c4ff87d" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="http://app.pre.primedia.es/" id="Primedia">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">APP Primedia</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-72efd60 elementor-hidden-mobile e-flex e-con-boxed e-con e-parent" data-id="72efd60" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-7478e02 elementor-icon-list--layout-inline elementor-align-left elementor-mobile-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="7478e02" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="tel:638916780">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone"></i>						</span>
+										<span class="elementor-icon-list-text">Info: 638916780</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="tel:622424318">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-phone"></i>						</span>
+										<span class="elementor-icon-list-text">Urgencias: 622 424 318</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="mailto:info@asemed.org">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-envelope"></i>						</span>
+										<span class="elementor-icon-list-text">info@asemed.org</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="https://maps.app.goo.gl/r7BBhwvUWkZJSwWg8">
+
+												<span class="elementor-icon-list-icon">
+							<i aria-hidden="true" class="fas fa-map-marker-alt"></i>						</span>
+										<span class="elementor-icon-list-text">C/ de Bravo Murillo, 147, Entl. Madrid</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-1bc084d5 e-flex e-con-boxed e-con e-parent" data-id="1bc084d5" data-element_type="container" data-settings="{&quot;sticky&quot;:&quot;top&quot;,&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-1bd0867 elementor-invisible elementor-widget elementor-widget-theme-site-logo elementor-widget-image" data-id="1bd0867" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="theme-site-logo.default">
+				<div class="elementor-widget-container">
+											<a href="https://www.asemed.org">
+			<img width="55" height="60" src="https://www.asemed.org/wp-content/uploads/2023/09/asemed_logo.png" class="attachment-full size-full wp-image-109" alt="logo de asemed" />				</a>
+											</div>
+				</div>
+				<div class="elementor-element elementor-element-121adf0c elementor-nav-menu__align-center elementor-nav-menu__text-align-center elementor-nav-menu--dropdown-tablet elementor-nav-menu--toggle elementor-nav-menu--burger elementor-invisible elementor-widget elementor-widget-nav-menu" data-id="121adf0c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;,&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;},&quot;toggle&quot;:&quot;burger&quot;}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menú" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
+				<ul id="menu-1-121adf0c" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-320"><a href="https://www.asemed.org/mediacion/" class="elementor-item">Mediación</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3916"><a href="https://www.asemed.org/solicitud-de-mediacion-pagar-tasa/" class="elementor-sub-item">Solicitud de mediación – Pagar tasa</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550"><a href="https://www.asemed.org/mediacion/solicitar-una-mediacion/" class="elementor-sub-item">Solicitar una Mediación</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-841"><a href="https://www.asemed.org/mediacion/formacion-en-mediacion/" class="elementor-sub-item">Formación en Mediación</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1706"><a href="https://www.asemed.org/mediacion/seguro-rc-de-asemed/" class="elementor-sub-item">Seguro RC de ASEMED</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559"><a href="https://www.asemed.org/arbitraje/" class="elementor-item">Arbitraje</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="https://www.asemed.org/arbitraje/coordinacion-de-parentalidad/" class="elementor-item">Coordinación de parentalidad</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-118"><a href="/mediacion/formacion-en-mediacion/" class="elementor-item">Formación</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383"><a href="https://www.asemed.org/oferta-formativa/" class="elementor-sub-item">Oferta Formativa</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3093"><a href="https://www.asemed.org/oferta-formativa/registro-mediadores-asemed/formacion-continua/" class="elementor-sub-item">MEDATA – Formación continua</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1838"><a href="/oferta-formativa/#CursosTeoricos" class="elementor-sub-item elementor-item-anchor">Cursos Teóricos E-Learning</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1845"><a href="/oferta-formativa/#CursosPracticos" class="elementor-sub-item elementor-item-anchor">Cursos Prácticos</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1849"><a href="/oferta-formativa/#CursosTeoricoPracticos" class="elementor-sub-item elementor-item-anchor">Cursos Teórico Prácticos</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1892"><a href="/oferta-formativa/#CursosCoordinacion" class="elementor-sub-item elementor-item-anchor">Curso Coordinación Parentalidad</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1850"><a href="/oferta-formativa/#CursosNegociacion" class="elementor-sub-item elementor-item-anchor">Curso Conciliación Privada</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1855"><a href="/oferta-formativa/#MastersProfesionales" class="elementor-sub-item elementor-item-anchor">Másteres Profesionales</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a href="#" class="elementor-item elementor-item-anchor">ASEMED</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2826"><a href="https://www.asemed.org/mediadores-de-honor-de-la-asociacion-espanola-de-mediacion/" class="elementor-item">Mediadores de Honor</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2984"><a href="https://www.asemed.org/convenios-asemed/" class="elementor-item">Convenios Asemed</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1836"><a href="https://www.asemed.org/arbitraje/canal-etico/" class="elementor-item">Canal Ético</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758"><a href="https://www.asemed.org/codigo-de-conducta-de-la-asociacion-espanola-de-mediacion/" class="elementor-item">Código de Conducta</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2854"><a href="https://www.asemed.org/obra-social/" class="elementor-item">Obra Social</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2927"><a href="https://www.asemed.org/noticias/" class="elementor-item">Noticias</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1757"><a href="https://www.asemed.org/contacto/" class="elementor-item">Contacto</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3609"><a href="https://www.asemed.org/noticias/solicitar-una-mediacion-dana-2024/" class="elementor-item">Solicitar una mediación gratuita para afectados por la DANA 2024</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3610"><a href="https://www.asemed.org/home/formulario-de-solicitud-de-mediacion/" class="elementor-sub-item">Formulario de Solicitud de Mediación DANA</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3664"><a href="https://www.asemed.org/oferta-formativa/sin-categorizar/eventos/vi-simposio-profesional-de-mediacion/" class="elementor-item">VI Simposio profesional de mediación</a></li>
+</ul>			</nav>
+					<div class="elementor-menu-toggle" role="button" tabindex="0" aria-label="Alternar menú" aria-expanded="false">
+			<i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--open eicon-menu-bar"></i><i aria-hidden="true" role="presentation" class="elementor-menu-toggle__icon--close eicon-close"></i>		</div>
+					<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-121adf0c" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-320"><a href="https://www.asemed.org/mediacion/" class="elementor-item" tabindex="-1">Mediación</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3916"><a href="https://www.asemed.org/solicitud-de-mediacion-pagar-tasa/" class="elementor-sub-item" tabindex="-1">Solicitud de mediación – Pagar tasa</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-550"><a href="https://www.asemed.org/mediacion/solicitar-una-mediacion/" class="elementor-sub-item" tabindex="-1">Solicitar una Mediación</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-841"><a href="https://www.asemed.org/mediacion/formacion-en-mediacion/" class="elementor-sub-item" tabindex="-1">Formación en Mediación</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1706"><a href="https://www.asemed.org/mediacion/seguro-rc-de-asemed/" class="elementor-sub-item" tabindex="-1">Seguro RC de ASEMED</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1559"><a href="https://www.asemed.org/arbitraje/" class="elementor-item" tabindex="-1">Arbitraje</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1562"><a href="https://www.asemed.org/arbitraje/coordinacion-de-parentalidad/" class="elementor-item" tabindex="-1">Coordinación de parentalidad</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-118"><a href="/mediacion/formacion-en-mediacion/" class="elementor-item" tabindex="-1">Formación</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1383"><a href="https://www.asemed.org/oferta-formativa/" class="elementor-sub-item" tabindex="-1">Oferta Formativa</a></li>
+	<li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3093"><a href="https://www.asemed.org/oferta-formativa/registro-mediadores-asemed/formacion-continua/" class="elementor-sub-item" tabindex="-1">MEDATA – Formación continua</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1838"><a href="/oferta-formativa/#CursosTeoricos" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Cursos Teóricos E-Learning</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1845"><a href="/oferta-formativa/#CursosPracticos" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Cursos Prácticos</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1849"><a href="/oferta-formativa/#CursosTeoricoPracticos" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Cursos Teórico Prácticos</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1892"><a href="/oferta-formativa/#CursosCoordinacion" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Curso Coordinación Parentalidad</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1850"><a href="/oferta-formativa/#CursosNegociacion" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Curso Conciliación Privada</a></li>
+	<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1855"><a href="/oferta-formativa/#MastersProfesionales" class="elementor-sub-item elementor-item-anchor" tabindex="-1">Másteres Profesionales</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-120"><a href="#" class="elementor-item elementor-item-anchor" tabindex="-1">ASEMED</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2826"><a href="https://www.asemed.org/mediadores-de-honor-de-la-asociacion-espanola-de-mediacion/" class="elementor-item" tabindex="-1">Mediadores de Honor</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2984"><a href="https://www.asemed.org/convenios-asemed/" class="elementor-item" tabindex="-1">Convenios Asemed</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1836"><a href="https://www.asemed.org/arbitraje/canal-etico/" class="elementor-item" tabindex="-1">Canal Ético</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1758"><a href="https://www.asemed.org/codigo-de-conducta-de-la-asociacion-espanola-de-mediacion/" class="elementor-item" tabindex="-1">Código de Conducta</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2854"><a href="https://www.asemed.org/obra-social/" class="elementor-item" tabindex="-1">Obra Social</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2927"><a href="https://www.asemed.org/noticias/" class="elementor-item" tabindex="-1">Noticias</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1757"><a href="https://www.asemed.org/contacto/" class="elementor-item" tabindex="-1">Contacto</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3609"><a href="https://www.asemed.org/noticias/solicitar-una-mediacion-dana-2024/" class="elementor-item" tabindex="-1">Solicitar una mediación gratuita para afectados por la DANA 2024</a>
+<ul class="sub-menu elementor-nav-menu--dropdown">
+	<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3610"><a href="https://www.asemed.org/home/formulario-de-solicitud-de-mediacion/" class="elementor-sub-item" tabindex="-1">Formulario de Solicitud de Mediación DANA</a></li>
+</ul>
+</li>
+<li class="menu-item menu-item-type-post_type menu-item-object-product menu-item-3664"><a href="https://www.asemed.org/oferta-formativa/sin-categorizar/eventos/vi-simposio-profesional-de-mediacion/" class="elementor-item" tabindex="-1">VI Simposio profesional de mediación</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-cea1187 elementor-align-center elementor-invisible elementor-widget elementor-widget-button" data-id="cea1187" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/registro-mediadores-asemed/formacion-continua/">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">MEDATA</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+				</header>
+				<div data-elementor-type="product-archive" data-elementor-id="2540" class="elementor elementor-2540 elementor-location-archive product" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-85cef00 e-flex e-con-boxed e-con e-parent" data-id="85cef00" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-5b2a280 e-flex e-con-boxed e-con e-child" data-id="5b2a280" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-ffdfa04 elementor-widget elementor-widget-heading" data-id="ffdfa04" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Archivos: Pago</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-8e668e5 elementor-widget elementor-widget-text-editor" data-id="8e668e5" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p>Aquí es donde puedes ver los productos en esta tienda.</p>
+								</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-534a3e4 e-flex e-con-boxed e-con e-child" data-id="534a3e4" data-element_type="container">
+					<div class="e-con-inner">
+				<div class="woocommerce elementor-element elementor-element-4018c13 elementor-grid-2 elementor-grid-tablet-2 elementor-grid-mobile-1 elementor-widget elementor-widget-loop-grid" data-id="4018c13" data-element_type="widget" data-settings="{&quot;_skin&quot;:&quot;product&quot;,&quot;template_id&quot;:2449,&quot;columns&quot;:2,&quot;masonry&quot;:&quot;yes&quot;,&quot;pagination_type&quot;:&quot;numbers_and_prev_next&quot;,&quot;columns_tablet&quot;:&quot;2&quot;,&quot;columns_mobile&quot;:&quot;1&quot;,&quot;edit_handle_selector&quot;:&quot;[data-elementor-type=\&quot;loop-item\&quot;]&quot;,&quot;pagination_load_type&quot;:&quot;page_reload&quot;,&quot;row_gap&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;row_gap_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]}}" data-widget_type="loop-grid.product">
+				<div class="elementor-widget-container">
+							<div class="elementor-loop-container elementor-grid">
+		<style id="loop-2449">.elementor-2449 .elementor-element.elementor-element-dd06831{--display:flex;--flex-direction:column;--container-widget-width:100%;--container-widget-height:initial;--container-widget-flex-grow:0;--container-widget-align-self:initial;--flex-wrap-mobile:wrap;}.elementor-2449 .elementor-element.elementor-element-2bd698c{--display:flex;--gap:20px 20px;--row-gap:20px;--column-gap:20px;border-style:solid;--border-style:solid;border-width:0px 0px 0px 8px;--border-top-width:0px;--border-right-width:0px;--border-bottom-width:0px;--border-left-width:8px;border-color:var( --e-global-color-a115014 );--border-color:var( --e-global-color-a115014 );box-shadow:0px 0px 0px 0px rgba(0,0,0,0.5);--margin-top:0px;--margin-bottom:20px;--margin-left:0px;--margin-right:0px;--padding-top:20px;--padding-bottom:20px;--padding-left:20px;--padding-right:20px;}.elementor-2449 .elementor-element.elementor-element-2bd698c:not(.elementor-motion-effects-element-type-background), .elementor-2449 .elementor-element.elementor-element-2bd698c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:var( --e-global-color-68efe74 );}.elementor-2449 .elementor-element.elementor-element-2bd698c:hover{border-style:solid;border-width:0px 0px 0px 8px;--border-top-width:0px;--border-right-width:0px;--border-bottom-width:0px;--border-left-width:8px;border-color:var( --e-global-color-accent );--border-color:var( --e-global-color-accent );box-shadow:0px 0px 3px 0px rgba(0,0,0,0.5);}.elementor-2449 .elementor-element.elementor-element-2bd698c, .elementor-2449 .elementor-element.elementor-element-2bd698c::before{--border-transition:0.3s;}.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-size:var( --e-global-typography-primary-font-size );font-weight:var( --e-global-typography-primary-font-weight );text-transform:var( --e-global-typography-primary-text-transform );font-style:var( --e-global-typography-primary-font-style );text-decoration:var( --e-global-typography-primary-text-decoration );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );word-spacing:var( --e-global-typography-primary-word-spacing );color:var( --e-global-color-primary );}.elementor-2449 .elementor-element.elementor-element-a361e7b .elementor-heading-title{font-family:var( --e-global-typography-secondary-font-family ), Sans-serif;font-size:var( --e-global-typography-secondary-font-size );font-weight:var( --e-global-typography-secondary-font-weight );text-transform:var( --e-global-typography-secondary-text-transform );font-style:var( --e-global-typography-secondary-font-style );text-decoration:var( --e-global-typography-secondary-text-decoration );line-height:var( --e-global-typography-secondary-line-height );letter-spacing:var( --e-global-typography-secondary-letter-spacing );word-spacing:var( --e-global-typography-secondary-word-spacing );}.elementor-2449 .elementor-element.elementor-element-686197f > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.woocommerce .elementor-2449 .elementor-element.elementor-element-686197f .shop_attributes{color:var( --e-global-color-primary );font-family:var( --e-global-typography-text-font-family ), Sans-serif;font-size:var( --e-global-typography-text-font-size );font-weight:var( --e-global-typography-text-font-weight );text-transform:var( --e-global-typography-text-text-transform );font-style:var( --e-global-typography-text-font-style );text-decoration:var( --e-global-typography-text-text-decoration );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );word-spacing:var( --e-global-typography-text-word-spacing );}.elementor-widget-button .elementor-button{background-color:var( --e-global-color-accent );font-family:var( --e-global-typography-accent-font-family ), Sans-serif;font-size:var( --e-global-typography-accent-font-size );font-weight:var( --e-global-typography-accent-font-weight );text-transform:var( --e-global-typography-accent-text-transform );font-style:var( --e-global-typography-accent-font-style );text-decoration:var( --e-global-typography-accent-text-decoration );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );word-spacing:var( --e-global-typography-accent-word-spacing );}.elementor-2449 .elementor-element.elementor-element-4bda858 .elementor-button:hover, .elementor-2449 .elementor-element.elementor-element-4bda858 .elementor-button:focus{background-color:var( --e-global-color-primary );}.elementor-2449 .elementor-element.elementor-element-4bda858 .elementor-button-content-wrapper{flex-direction:row-reverse;}.elementor-2449 .elementor-element.elementor-element-4bda858 .elementor-button{font-family:"PT Serif", Sans-serif;font-size:16px;font-weight:400;text-transform:none;font-style:normal;text-decoration:none;line-height:1em;letter-spacing:0px;word-spacing:0em;fill:var( --e-global-color-55f77e1 );color:var( --e-global-color-55f77e1 );border-radius:3px 3px 3px 3px;padding:3% 3% 3% 3%;}@media(max-width:1024px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );word-spacing:var( --e-global-typography-primary-word-spacing );}.elementor-2449 .elementor-element.elementor-element-a361e7b .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );letter-spacing:var( --e-global-typography-secondary-letter-spacing );word-spacing:var( --e-global-typography-secondary-word-spacing );}.woocommerce .elementor-2449 .elementor-element.elementor-element-686197f .shop_attributes{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );word-spacing:var( --e-global-typography-text-word-spacing );}.elementor-widget-button .elementor-button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );word-spacing:var( --e-global-typography-accent-word-spacing );}}@media(max-width:767px){.elementor-widget-heading .elementor-heading-title{font-size:var( --e-global-typography-primary-font-size );line-height:var( --e-global-typography-primary-line-height );letter-spacing:var( --e-global-typography-primary-letter-spacing );word-spacing:var( --e-global-typography-primary-word-spacing );}.elementor-2449 .elementor-element.elementor-element-a361e7b .elementor-heading-title{font-size:var( --e-global-typography-secondary-font-size );line-height:var( --e-global-typography-secondary-line-height );letter-spacing:var( --e-global-typography-secondary-letter-spacing );word-spacing:var( --e-global-typography-secondary-word-spacing );}.woocommerce .elementor-2449 .elementor-element.elementor-element-686197f .shop_attributes{font-size:var( --e-global-typography-text-font-size );line-height:var( --e-global-typography-text-line-height );letter-spacing:var( --e-global-typography-text-letter-spacing );word-spacing:var( --e-global-typography-text-word-spacing );}.elementor-widget-button .elementor-button{font-size:var( --e-global-typography-accent-font-size );line-height:var( --e-global-typography-accent-line-height );letter-spacing:var( --e-global-typography-accent-letter-spacing );word-spacing:var( --e-global-typography-accent-word-spacing );}.elementor-2449 .elementor-element.elementor-element-4bda858 .elementor-button{font-size:14px;}}</style>		<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2575 post-2575 product type-product status-publish product_cat-curso-coordinacion-de-parentalidad first instock purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/curso-coordinacion-de-parentalidad/curso-de-especialista-en-coordinacion-parental-y-gestion-del-conflicto-familiar/">CURSO DE ESPECIALISTA EN COORDINACIÓN PARENTAL Y GESTIÓN DEL CONFLICTO FAMILIAR</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>100 horas</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>15551</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/curso-coordinacion-de-parentalidad/curso-de-especialista-en-coordinacion-parental-y-gestion-del-conflicto-familiar/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2551 post-2551 product type-product status-publish product_cat-formacion-en-mediacion  instock taxable shipping-taxable purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/formacion-en-mediacion/curso-de-especialista-en-mediacion-y-arbitraje-de-consumo/">CURSO DE ESPECIALISTA EN MEDIACIÓN Y ARBITRAJE DE CONSUMO</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/formacion-en-mediacion/curso-de-especialista-en-mediacion-y-arbitraje-de-consumo/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-1943 post-1943 product type-product status-publish product_cat-cursos-teoricos-e-learning  instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-de-especializacion-en-mediacion-de-menores/">Curso de especialización en Mediación de Menores</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>300 horas de clases teóricas online.</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia:</th>
+			<td class="woocommerce-product-attributes-item__value"><p>12211</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más Información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-de-especializacion-en-mediacion-de-menores/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-3325 post-3325 product type-product status-publish product_cat-cursos-practicos-presenciales last instock purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-practicos-presenciales/curso-practico-de-especialista-en-facilitacion-procesal-para-el-acceso-a-las-personas-con-discapacidad-intelectual-a-la-justicia/">Curso práctico de especialista en facilitación procesal para el acceso a las personas con discapacidad intelectual a la justicia</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-practicos-presenciales/curso-practico-de-especialista-en-facilitacion-procesal-para-el-acceso-a-las-personas-con-discapacidad-intelectual-a-la-justicia/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2303 post-2303 product type-product status-publish product_cat-cursos-practicos-presenciales first instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-practicos-presenciales/curso-practico-presencial-de-mediacion-en-asuntos-civiles-y-mercantiles-incluida-mediacion-familiar/">Curso práctico presencial de Mediación en asuntos Civiles y Mercantiles (incluida Mediación Familiar)</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>60 horas prácticas, presenciales y no presenciales</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>22173</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_inscripci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Inscripción</th>
+			<td class="woocommerce-product-attributes-item__value"><p>El curso tiene plazas limitadas, por lo que la matriculación se realizará por riguroso orden de reserva</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-practicos-presenciales/curso-practico-presencial-de-mediacion-en-asuntos-civiles-y-mercantiles-incluida-mediacion-familiar/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2376 post-2376 product type-product status-publish product_cat-cursos-practicos-presenciales  instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-practicos-presenciales/curso-practico-presencial-de-mediacion-en-asuntos-civiles-y-mercantiles-y-especialista-en-mediacion-penal-y-penitenciaria-de-adultos/">Curso práctico presencial de Mediación en asuntos Civiles y Mercantiles y especialista en Mediacion Penal y Penitenciaria de Adultos</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>50 horas prácticas, presenciales y no presenciales</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>22172</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_inscripci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Inscripción</th>
+			<td class="woocommerce-product-attributes-item__value"><p>El curso tiene plazas limitadas, por lo que la matriculación se realizará por riguroso orden de reserva.</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-practicos-presenciales/curso-practico-presencial-de-mediacion-en-asuntos-civiles-y-mercantiles-y-especialista-en-mediacion-penal-y-penitenciaria-de-adultos/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2434 post-2434 product type-product status-publish product_cat-cursos-teoricos-e-learning  instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-especialista-en-mediacion-civil-mercantil-y-administrativa/">Curso teórico de especialista en Mediación Civil Mercantil y Administrativa</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>150 horas de clases teóricas online</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>9811</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-especialista-en-mediacion-civil-mercantil-y-administrativa/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2462 post-2462 product type-product status-publish product_cat-cursos-teoricos-e-learning last instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-especialista-en-mediacion-civil-y-mercantil/">Curso teórico de especialista en mediación civil y mercantil</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>102 horas de clases teóricas online</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>21</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-especialista-en-mediacion-civil-y-mercantil/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2467 post-2467 product type-product status-publish product_cat-cursos-teoricos-e-learning first instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-especialista-en-mediacion-familiar/">Curso teórico de especialista en Mediación Familiar</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>300 horas de clases teóricas online</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>27</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso adaptado a la Ley de Mediación 5/2012 y RD 980/2013</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-especialista-en-mediacion-familiar/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2464 post-2464 product type-product status-publish product_cat-cursos-teoricos-e-learning  instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-civil-en-el-ambito-sanitario-y-de-la-salud/">Curso teórico de Mediación Civil en el ámbito Sanitario y de la Salud</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>102 horas de clases teóricas online</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>25</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012.<br />
+Declarado de interés sanitario por la Consejería de Sanidad de la Junta de Extremadura.</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-civil-en-el-ambito-sanitario-y-de-la-salud/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2469 post-2469 product type-product status-publish product_cat-cursos-teoricos-e-learning  instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-civil-y-mercantil-especialidad-concursal/">Curso teórico de Mediación Civil y Mercantil especialidad concursal</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>200 horas de clases teóricas online.</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>29</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012.</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-civil-y-mercantil-especialidad-concursal/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2470 post-2470 product type-product status-publish product_cat-cursos-teoricos-e-learning last instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-civil-y-mercantil-especialidad-en-mediacion-laboral/">Curso teórico de Mediación Civil y Mercantil especialidad en Mediación Laboral</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>200 horas de clases teóricas online.</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>3381</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-civil-y-mercantil-especialidad-en-mediacion-laboral/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2471 post-2471 product type-product status-publish product_cat-cursos-teoricos-e-learning first instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-escolar/">Curso teórico de Mediación Escolar</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>120 horas de clases teóricas online</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>4721</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-escolar/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2473 post-2473 product type-product status-publish product_cat-cursos-teoricos-e-learning  instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-penal-y-penitenciaria/">Curso teórico de Mediación Penal y Penitenciaria</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>200 horas de clases teóricas online.</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>28</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-penal-y-penitenciaria/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2472 post-2472 product type-product status-publish product_cat-cursos-teoricos-e-learning  instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-policial/">Curso teórico de Mediación Policial</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>120 horas de clases teóricas online</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_id-ministerio-de-justicia">
+			<th class="woocommerce-product-attributes-item__label" scope="row">ID. Ministerio de Justicia</th>
+			<td class="woocommerce-product-attributes-item__value"><p>122</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso de Mediación adaptado a la Ley de Mediación 5/2012</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/cursos-teoricos-e-learning/curso-teorico-de-mediacion-policial/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="loop-item" data-elementor-id="2449" class="elementor elementor-2449 e-loop-item e-loop-item-2479 post-2479 product type-product status-publish product_cat-curso-negociacion-y-conciliacion-privada last instock virtual purchasable product-type-simple" data-elementor-post-type="elementor_library" data-custom-edit-handle="1">
+			<div class="elementor-element elementor-element-dd06831 e-flex e-con-boxed e-con e-parent" data-id="dd06831" data-element_type="container">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-2bd698c e-flex e-con-boxed e-con e-child" data-id="2bd698c" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-a361e7b elementor-widget elementor-widget-heading" data-id="a361e7b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-small"><a href="https://www.asemed.org/oferta-formativa/curso-negociacion-y-conciliacion-privada/curso-teorico-practico-de-especialista-en-conciliacion-privada/">Curso teórico-práctico de especialista en conciliación privada</a></p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-686197f elementor-widget elementor-widget-woocommerce-product-additional-information" data-id="686197f" data-element_type="widget" data-widget_type="woocommerce-product-additional-information.default">
+				<div class="elementor-widget-container">
+					
+	<h2>Información adicional</h2>
+
+<table class="woocommerce-product-attributes shop_attributes" aria-label="Detalles del producto">
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_duraci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Duración</th>
+			<td class="woocommerce-product-attributes-item__value"><p>60 teóricas y 40 horas prácticas =&gt; presenciales y no presenciales.</p>
+</td>
+		</tr>
+			<tr class="woocommerce-product-attributes-item woocommerce-product-attributes-item--attribute_m%c3%a1s-informaci%c3%b3n">
+			<th class="woocommerce-product-attributes-item__label" scope="row">Más información</th>
+			<td class="woocommerce-product-attributes-item__value"><p>Curso adaptado a Proyecto de Ley de medidas de eficiencia procesal del servicio público de Justicia, aprobado por el Consejo de Ministros del 12/04/2022</p>
+</td>
+		</tr>
+	</table>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-4bda858 elementor-align-left elementor-widget elementor-widget-button" data-id="4bda858" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;none&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://www.asemed.org/oferta-formativa/curso-negociacion-y-conciliacion-privada/curso-teorico-practico-de-especialista-en-conciliacion-privada/">
+						<span class="elementor-button-content-wrapper">
+						<span class="elementor-button-icon">
+				<i aria-hidden="true" class="fas fa-long-arrow-alt-right"></i>			</span>
+									<span class="elementor-button-text">Ver contenido del curso</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+					</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				</div>
+		
+				<div class="e-load-more-anchor" data-page="1" data-max-page="3" data-next-page="https://www.asemed.org/pago/page/2/?preview_id=1940&#038;preview_nonce=491d6783bb&#038;preview=true"></div>
+				<nav class="elementor-pagination" aria-label="Paginación">
+			<span class="page-numbers prev">Anterior</span>
+<span aria-current="page" class="page-numbers current"><span class="elementor-screen-only">Página</span>1</span>
+<a class="page-numbers" href="https://www.asemed.org/pago/page/2/?preview_id=1940&#038;preview_nonce=491d6783bb&#038;preview=true"><span class="elementor-screen-only">Página</span>2</a>
+<a class="page-numbers" href="https://www.asemed.org/pago/page/3/?preview_id=1940&#038;preview_nonce=491d6783bb&#038;preview=true"><span class="elementor-screen-only">Página</span>3</a>
+<a class="page-numbers next" href="https://www.asemed.org/pago/page/2/?preview_id=1940&#038;preview_nonce=491d6783bb&#038;preview=true">Siguiente</a>		</nav>
+						</div>
+				</div>
+					</div>
+				</div>
+				<div class="elementor-element elementor-element-3f32e85 elementor-widget elementor-widget-menu-anchor" data-id="3f32e85" data-element_type="widget" data-widget_type="menu-anchor.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-menu-anchor" id="CursosPracticos"></div>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+				<div data-elementor-type="footer" data-elementor-id="1414" class="elementor elementor-1414 elementor-location-footer" data-elementor-post-type="elementor_library">
+			<footer class="elementor-element elementor-element-2a99f95d e-con-full e-flex e-con e-parent" data-id="2a99f95d" data-element_type="container">
+		<div class="elementor-element elementor-element-2732cd31 e-con-full e-flex e-con e-child" data-id="2732cd31" data-element_type="container">
+				<div class="elementor-element elementor-element-675599a4 elementor-widget elementor-widget-image" data-id="675599a4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="https://www.asemed.org">
+							<img width="55" height="60" src="https://www.asemed.org/wp-content/uploads/2023/09/asemed_logo.png" class="attachment-full size-full wp-image-109" alt="logo de asemed" />								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-40deb6b8 e-con-full e-flex e-con e-child" data-id="40deb6b8" data-element_type="container">
+				<div class="elementor-element elementor-element-6d4f0e0f elementor-widget elementor-widget-heading" data-id="6d4f0e0f" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Contacto</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-3647f92 elementor-position-left elementor-mobile-position-left elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="3647f92" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span  class="elementor-icon">
+				<i aria-hidden="true" class="fas fa-map-marker-alt"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h4 class="elementor-icon-box-title">
+						<span  >
+							Oficina						</span>
+					</h4>
+				
+									<p class="elementor-icon-box-description">
+						C/ Bravo Murillo, 147. Entl.<br>
+28020 Madrid					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-e017997 elementor-position-left elementor-mobile-position-left elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="e017997" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<a href="mailto:info@asemed.org" class="elementor-icon" tabindex="-1" aria-label="email">
+				<i aria-hidden="true" class="fas fa-envelope"></i>				</a>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h4 class="elementor-icon-box-title">
+						<a href="mailto:info@asemed.org" >
+							email						</a>
+					</h4>
+				
+									<p class="elementor-icon-box-description">
+						info@asemed.org					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-24c7162 elementor-position-left elementor-mobile-position-left elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="24c7162" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<a href="tel:638916780" class="elementor-icon" tabindex="-1" aria-label="Tlf. Información">
+				<i aria-hidden="true" class="fas fa-phone-alt"></i>				</a>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h4 class="elementor-icon-box-title">
+						<a href="tel:638916780" >
+							Tlf. Información						</a>
+					</h4>
+				
+									<p class="elementor-icon-box-description">
+						688738351<br>
+<em>Horario 9:30 17:30<br>Lunes a viernes </em>					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-6968733 elementor-position-left elementor-mobile-position-left elementor-view-default elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="6968733" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<a href="tel:622424318" class="elementor-icon" tabindex="-1" aria-label="Tlf. Urgencias">
+				<i aria-hidden="true" class="fas fa-phone-alt"></i>				</a>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h4 class="elementor-icon-box-title">
+						<a href="tel:622424318" >
+							Tlf. Urgencias						</a>
+					</h4>
+				
+									<p class="elementor-icon-box-description">
+						622 424 318<br>
+<em>Centro de Mediación <br>y consultas urgentes </em>					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-4c30b1a8 e-con-full e-flex e-con e-child" data-id="4c30b1a8" data-element_type="container">
+				<div class="elementor-element elementor-element-32858918 elementor-widget elementor-widget-heading" data-id="32858918" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Formación</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b3efc01 elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="b3efc01" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menú" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-b3efc01" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1422"><a href="https://www.asemed.org/oferta-formativa/" class="elementor-item">Cursos en Mediación</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2373"><a href="/oferta-formativa/#CursosTeoricos" class="elementor-item elementor-item-anchor">Cursos Teóricos E-Learning</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2583"><a href="/oferta-formativa/#CursosPracticos" class="elementor-item elementor-item-anchor">Cursos Prácticos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2584"><a href="/oferta-formativa/#CursosTeoricoPracticos" class="elementor-item elementor-item-anchor">Cursos Teórico Prácticos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2585"><a href="/oferta-formativa/#CursosCoordinacion" class="elementor-item elementor-item-anchor">Curso Coordinación Parentalidad</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2586"><a href="/oferta-formativa/#CursosNegociacion" class="elementor-item elementor-item-anchor">Curso Conciliación Privada</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2587"><a href="/oferta-formativa/#MastersProfesionales" class="elementor-item elementor-item-anchor">Másteres Profesionales</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-b3efc01" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1422"><a href="https://www.asemed.org/oferta-formativa/" class="elementor-item" tabindex="-1">Cursos en Mediación</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2373"><a href="/oferta-formativa/#CursosTeoricos" class="elementor-item elementor-item-anchor" tabindex="-1">Cursos Teóricos E-Learning</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2583"><a href="/oferta-formativa/#CursosPracticos" class="elementor-item elementor-item-anchor" tabindex="-1">Cursos Prácticos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2584"><a href="/oferta-formativa/#CursosTeoricoPracticos" class="elementor-item elementor-item-anchor" tabindex="-1">Cursos Teórico Prácticos</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2585"><a href="/oferta-formativa/#CursosCoordinacion" class="elementor-item elementor-item-anchor" tabindex="-1">Curso Coordinación Parentalidad</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2586"><a href="/oferta-formativa/#CursosNegociacion" class="elementor-item elementor-item-anchor" tabindex="-1">Curso Conciliación Privada</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2587"><a href="/oferta-formativa/#MastersProfesionales" class="elementor-item elementor-item-anchor" tabindex="-1">Másteres Profesionales</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-7f8c1bc5 e-con-full e-flex e-con e-child" data-id="7f8c1bc5" data-element_type="container">
+				<div class="elementor-element elementor-element-1d08879b elementor-widget elementor-widget-heading" data-id="1d08879b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h4 class="elementor-heading-title elementor-size-default">Servicios</h4>				</div>
+				</div>
+				<div class="elementor-element elementor-element-32aff5b7 elementor-nav-menu--dropdown-none elementor-widget elementor-widget-nav-menu" data-id="32aff5b7" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;vertical&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menú" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-vertical e--pointer-none">
+				<ul id="menu-1-32aff5b7" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2415"><a href="https://www.asemed.org/mediacion/solicitar-una-mediacion/" class="elementor-item">Solicitar una Mediación</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2418"><a href="https://www.asemed.org/registro-de-mediadores/" class="elementor-item">Registro de Mediadores</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2421"><a href="https://www.asemed.org/mediacion/seguro-rc-de-asemed/" class="elementor-item">Seguro RC de ASEMED</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2420"><a href="https://www.asemed.org/arbitraje/" class="elementor-item">Solicitar un Arbitraje</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2422"><a href="https://www.asemed.org/arbitraje/coordinacion-de-parentalidad/" class="elementor-item">Coordinación de parentalidad</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2427"><a href="https://www.asemed.org/arbitraje/modelos-de-contratos/" class="elementor-item">Descarga Contratos</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-32aff5b7" class="elementor-nav-menu sm-vertical"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2415"><a href="https://www.asemed.org/mediacion/solicitar-una-mediacion/" class="elementor-item" tabindex="-1">Solicitar una Mediación</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2418"><a href="https://www.asemed.org/registro-de-mediadores/" class="elementor-item" tabindex="-1">Registro de Mediadores</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2421"><a href="https://www.asemed.org/mediacion/seguro-rc-de-asemed/" class="elementor-item" tabindex="-1">Seguro RC de ASEMED</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2420"><a href="https://www.asemed.org/arbitraje/" class="elementor-item" tabindex="-1">Solicitar un Arbitraje</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2422"><a href="https://www.asemed.org/arbitraje/coordinacion-de-parentalidad/" class="elementor-item" tabindex="-1">Coordinación de parentalidad</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2427"><a href="https://www.asemed.org/arbitraje/modelos-de-contratos/" class="elementor-item" tabindex="-1">Descarga Contratos</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-665cb64b e-con-full e-flex e-con e-child" data-id="665cb64b" data-element_type="container">
+				<div class="elementor-element elementor-element-1885b26 elementor-align-left elementor-invisible elementor-widget elementor-widget-button" data-id="1885b26" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInDown&quot;}" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-md" href="https://asemed-formacion.es/" target="_blank">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">Acceso Cursos Online</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+				</footer>
+		<div class="elementor-element elementor-element-6b3c0d24 e-flex e-con-boxed e-con e-parent" data-id="6b3c0d24" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-4b1d5cc4 elementor-widget__width-initial elementor-widget elementor-widget-heading" data-id="4b1d5cc4" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Ⓒ2023 Todos los Derechos Reservados </p>				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-2eb376a e-flex e-con-boxed e-con e-parent" data-id="2eb376a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+					<div class="e-con-inner">
+				<div class="elementor-element elementor-element-30a71e7 elementor-nav-menu--dropdown-none elementor-nav-menu__align-center elementor-widget__width-initial elementor-widget elementor-widget-nav-menu" data-id="30a71e7" data-element_type="widget" data-settings="{&quot;layout&quot;:&quot;horizontal&quot;,&quot;submenu_icon&quot;:{&quot;value&quot;:&quot;&lt;i class=\&quot;fas fa-caret-down\&quot;&gt;&lt;\/i&gt;&quot;,&quot;library&quot;:&quot;fa-solid&quot;}}" data-widget_type="nav-menu.default">
+				<div class="elementor-widget-container">
+								<nav aria-label="Menú" class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-none">
+				<ul id="menu-1-30a71e7" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1412"><a href="https://www.asemed.org/politica-de-privacidad-y-aviso-legal/" class="elementor-item">Aviso Legal</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1411"><a href="https://www.asemed.org/politica-de-compra-y-devoluciones/" class="elementor-item">Política de Compra</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2943"><a href="https://www.asemed.org/politica-de-cookies/" class="elementor-item">Política de Cookies</a></li>
+</ul>			</nav>
+						<nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
+				<ul id="menu-2-30a71e7" class="elementor-nav-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1412"><a href="https://www.asemed.org/politica-de-privacidad-y-aviso-legal/" class="elementor-item" tabindex="-1">Aviso Legal</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1411"><a href="https://www.asemed.org/politica-de-compra-y-devoluciones/" class="elementor-item" tabindex="-1">Política de Compra</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2943"><a href="https://www.asemed.org/politica-de-cookies/" class="elementor-item" tabindex="-1">Política de Cookies</a></li>
+</ul>			</nav>
+						</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		
+
+<div class="joinchat joinchat--right" data-settings='{"telephone":"34622424318","mobile_only":false,"button_delay":3,"whatsapp_web":false,"qr":false,"message_views":2,"message_delay":10,"message_badge":false,"message_send":"Hola *asemed*. Quisiera más información sobre Pago https://www.asemed.org/pago","message_hash":"30ea6f78"}'>
+	<div class="joinchat__button">
+		<div class="joinchat__button__open"></div>
+											<div class="joinchat__button__sendtext">Abrir chat</div>
+						<svg class="joinchat__button__send" width="60" height="60" viewbox="0 0 400 400" stroke-linecap="round" stroke-width="33">
+				<path class="joinchat_svg__plain" d="M168.83 200.504H79.218L33.04 44.284a1 1 0 0 1 1.386-1.188L365.083 199.04a1 1 0 0 1 .003 1.808L34.432 357.903a1 1 0 0 1-1.388-1.187l29.42-99.427"/>
+				<path class="joinchat_svg__chat" d="M318.087 318.087c-52.982 52.982-132.708 62.922-195.725 29.82l-80.449 10.18 10.358-80.112C18.956 214.905 28.836 134.99 81.913 81.913c65.218-65.217 170.956-65.217 236.174 0 42.661 42.661 57.416 102.661 44.265 157.316"/>
+			</svg>
+										</div>
+			<div class="joinchat__box">
+			<div class="joinchat__header">
+									<span class="joinchat__header__text">WhatsApp de ASEMED</span>
+								<div class="joinchat__close" title="Cerrar"></div>
+			</div>
+			<div class="joinchat__box__scroll">
+				<div class="joinchat__box__content">
+					<div class="joinchat__message">¿En qué podemos ayudarte?</div>				</div>
+			</div>
+		</div>
+		<svg style="width:0;height:0;position:absolute"><defs><clipPath id="joinchat__peak_l"><path d="M17 25V0C17 12.877 6.082 14.9 1.031 15.91c-1.559.31-1.179 2.272.004 2.272C9.609 18.182 17 18.088 17 25z"/></clipPath><clipPath id="joinchat__peak_r"><path d="M0 25.68V0c0 13.23 10.92 15.3 15.97 16.34 1.56.32 1.18 2.34 0 2.34-8.58 0-15.97-.1-15.97 7Z"/></clipPath></defs></svg>
+	</div>
+			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<script type="text/template" id="tmpl-elementor-templates-modal__header">
+	<div class="elementor-templates-modal__header__logo-area"></div>
+	<div class="elementor-templates-modal__header__menu-area"></div>
+	<div class="elementor-templates-modal__header__items-area">
+		<# if ( closeType ) { #>
+			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
+				<# if ( 'skip' === closeType ) { #>
+				<span>Saltar</span>
+				<# } #>
+				<i class="eicon-close"
+				   aria-hidden="true"
+				   title="{{{ $e.components?.get( 'document/elements' )?.utils?.getTitleForLibraryClose() }}}"></i>
+				<span class="elementor-screen-only">{{{ $e.components?.get( 'document/elements' )?.utils?.getTitleForLibraryClose() }}}</span>
+			</div>
+		<# } #>
+		<div id="elementor-template-library-header-tools"></div>
+	</div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
+	<span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
+		<i class="eicon-elementor"></i>
+	</span>
+	<span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
+</script>
+<script type="text/template" id="tmpl-elementor-finder">
+	<div id="elementor-finder__search">
+		<i class="eicon-search" aria-hidden="true"></i>
+		<input id="elementor-finder__search__input" placeholder="Teclea para encontrar lo que sea en Elementor" autocomplete="off">
+	</div>
+	<div id="elementor-finder__content"></div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder-results-container">
+	<div id="elementor-finder__no-results">Ningún resultado</div>
+	<div id="elementor-finder__results"></div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder__results__category">
+	<div class="elementor-finder__results__category__title">{{{ title }}}</div>
+	<div class="elementor-finder__results__category__items"></div>
+</script>
+
+<script type="text/template" id="tmpl-elementor-finder__results__item">
+	<a href="{{ url }}" class="elementor-finder__results__item__link">
+		<div class="elementor-finder__results__item__icon">
+			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
+		</div>
+		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
+		<# if ( description ) { #>
+			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
+		<# } #>
+
+		<# if ( lock ) { #>
+		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
+		<# } #>
+	</a>
+	<# if ( actions.length ) { #>
+		<div class="elementor-finder__results__item__actions">
+		<# jQuery.each( actions, function() { #>
+			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
+				<i class="eicon-{{{ this.icon }}}"></i>
+			</a>
+		<# } ); #>
+		</div>
+	<# } #>
+</script>
+	<script>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wc-stripe-blocks-checkout-style-css' href='https://www.asemed.org/wp-content/plugins/woocommerce-gateway-stripe/build/upe_blocks.css?ver=80aba14d0d0aecb5950a5419963416fe' media='all' />
+<link rel='stylesheet' id='wc-blocks-style-css' href='https://www.asemed.org/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-9.7.1' media='all' />
+<link rel='stylesheet' id='widget-woocommerce-product-additional-information-css' href='https://www.asemed.org/wp-content/plugins/elementor-pro/assets/css/widget-woocommerce-product-additional-information.min.css?ver=3.27.5' media='all' />
+<script id="elementor-web-cli-js-before">
+var elementorWebCliConfig = {"isDebug":false,"urls":{"rest":"https:\/\/www.asemed.org\/wp-json\/","assets":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor\/assets\/"},"nonce":"ef3137e3b2","version":"3.27.6"};
+var elementorWebCliConfig = {"isDebug":false,"urls":{"rest":"https:\/\/www.asemed.org\/wp-json\/","assets":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor\/assets\/"},"nonce":"ef3137e3b2","version":"3.27.6"};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.27.6" id="elementor-web-cli-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/dist/vendor/react.min.js?ver=18.3.1.1" id="react-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/dist/vendor/react-dom.min.js?ver=18.3.1.1" id="react-dom-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/dist/i18n.min.js?ver=5e580eb46a90c2b997e6" id="wp-i18n-js"></script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-notes-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "elementor-pro", {"translation-revision-date":"2024-11-21 08:11:22+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"(deleted user)":["(usuario borrado)"],"Notes":["Notas"]}},"comment":{"reference":"assets\/js\/notes\/notes.js"}} );
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor-pro/assets/js/notes/notes.min.js?ver=3.27.5" id="elementor-pro-notes-js"></script>
+<script id="elementor-pro-notes-app-initiator-js-before">
+var elementorNotesConfig = {"route":{"title":"Pago","url":"\/pago","note_url_pattern":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-pro-notes-proxy&note-id={{NOTE_ID}}","post_id":null,"is_elementor_library":false},"direction":"ltr","is_debug":false,"current_user_can":{"create":true,"create_users":true,"edit_users":true},"urls":{"admin_url_create_user":"https:\/\/www.asemed.org\/wp-admin\/user-new.php","admin_url_edit_user":"https:\/\/www.asemed.org\/wp-admin\/user-edit.php","avatar_defaults":{"24":"https:\/\/secure.gravatar.com\/avatar\/?s=24&d=mm&r=g","48":"https:\/\/secure.gravatar.com\/avatar\/?s=48&d=mm&r=g","96":"https:\/\/secure.gravatar.com\/avatar\/?s=96&d=mm&r=g"},"help_notes_features":"https:\/\/go.elementor.com\/app-notes"}};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor-pro/assets/js/notes/notes-app-initiator.min.js?ver=3.27.5" id="elementor-pro-notes-app-initiator-js"></script>
+<script src="https://www.asemed.org/wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js?ver=3.3.0" id="hello-theme-frontend-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor-pro/assets/lib/smartmenus/jquery.smartmenus.min.js?ver=1.2.1" id="smartmenus-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.27.5" id="e-sticky-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/imagesloaded.min.js?ver=5.0.0" id="imagesloaded-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/creame-whatsapp-me/public/js/joinchat.min.js?ver=5.2.3" id="joinchat-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=9.7.1" id="sourcebuster-js-js"></script>
+<script id="wc-order-attribution-js-extra">
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https:\/\/www.asemed.org\/wp-admin\/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=9.7.1" id="wc-order-attribution-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.3" id="jquery-ui-mouse-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.3" id="jquery-ui-draggable-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/backbone.min.js?ver=1.6.0" id="backbone-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/lib/backbone/backbone.marionette.min.js?ver=2.4.5.e1" id="backbone-marionette-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/lib/backbone/backbone.radio.min.js?ver=1.0.4" id="backbone-radio-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/common-modules.min.js?ver=3.27.6" id="elementor-common-modules-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.3" id="elementor-dialog-js"></script>
+<script id="wp-api-request-js-extra">
+var wpApiSettings = {"root":"https:\/\/www.asemed.org\/wp-json\/","nonce":"ef3137e3b2","versionString":"wp\/v2\/"};
+</script>
+<script src="https://www.asemed.org/wp-includes/js/api-request.min.js?ver=6.7.2" id="wp-api-request-js"></script>
+<script id="elementor-dev-tools-js-before">
+var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.27.6"}};
+var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.27.6"}};
+var elementorDevToolsConfig = {"isDebug":false,"urls":{"assets":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor\/assets\/"},"deprecation":{"soft_notices":[],"soft_version_count":4,"hard_version_count":8,"current_version":"3.27.6"}};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/dev-tools.min.js?ver=3.27.6" id="elementor-dev-tools-js"></script>
+<script id="elementor-common-js-translations">
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "elementor", {"translation-revision-date":"2025-01-22 08:03:44+0000","generator":"GlotPress\/4.0.1","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n != 1;","lang":"es"},"To upload them anyway, ask the site administrator to enable unfiltered file uploads.":["Para subirlos de todas formas, pide al administrador del sitio que active la subida de archivos sin filtrar."],"This is because JSON files may pose a security risk.":["Esto se debe a que los archivos JSON pueden suponer un riesgo para la seguridad."],"Sorry, you can't upload that file yet":["Lo siento, a\u00fan no puedes subir ese archivo"],"Import Without Enabling":["Importar sin activar"],"Enable and Import":["Activar e importar"],"If you do not enable uploading unfiltered files, any SVG or JSON (including lottie) files used in the uploaded template will not be imported.":["Si no activas la subida de archivos no filtrados, no se importar\u00e1n los archivos SVG o JSON (incluyendo lottie) utilizados en la plantilla subida."],"The file exceeds the maximum upload size for this site.":["El archivo supera el tama\u00f1o m\u00e1ximo de subida de este sitio."],"Uploading...":["Subiendo..."],"Got it":["Entendido"],"Enable Unfiltered File Uploads":["Permitir la subida de archivos sin filtrar"],"Unable to connect":["No ha sido posible conectar"],"Before you enable unfiltered files upload, note that such files include a security risk. Elementor does run a process to remove possible malicious code, but there is still risk involved when using such files.":["Antes de que actives la subida de archivos sin filtrar, ten en cuenta que este tipo de archivos implican un riesgo de seguridad. Elementor ejecuta un proceso para eliminar el posible c\u00f3digo malicioso, pero todav\u00eda hay un riesgo inherente al usar estos archivos."],"Finder":["Buscador"],"Enable":["Activar"],"Cancel":["Cancelar"]}},"comment":{"reference":"assets\/js\/common.js"}} );
+</script>
+<script id="elementor-common-js-before">
+var elementorCommonConfig = {"version":"3.27.6","isRTL":false,"isDebug":false,"isElementorDebug":false,"activeModules":["ajax","finder","connect","event-tracker"],"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"e_onboarding":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"home_screen":true,"landing-pages":true,"nested-elements":true,"editor_v2":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor\/assets\/","rest":"https:\/\/www.asemed.org\/wp-json\/"},"filesUpload":{"unfilteredFiles":true},"library_connect":{"is_connected":false,"subscription_plans":{"free":{"label":null,"promotion_url":null,"color":null},"essential":{"label":"Pro","promotion_url":"https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro","color":"#92003B"},"essential-oct2023":{"label":"Advanced","promotion_url":"https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro","color":"#92003B"},"advanced":{"label":"Advanced","promotion_url":"https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro","color":"#92003B"},"expert":{"label":"Expert","promotion_url":"https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro","color":"#92003B"},"agency":{"label":"Agency","promotion_url":"https:\/\/my.elementor.com\/upgrade-subscription\/?utm_source=template-library&utm_medium=wp-dash&utm_campaign=gopro","color":"#92003B"}},"base_access_level":0,"base_access_tier":"free","current_access_level":1,"current_access_tier":"agency"},"ajax":{"url":"https:\/\/www.asemed.org\/wp-admin\/admin-ajax.php","nonce":"c73c348b4c"},"finder":{"data":{"edit":{"title":"Editar","dynamic":true,"name":"edit"},"general":{"title":"General","dynamic":false,"items":{"saved-templates":{"title":"Plantillas guardadas","icon":"library-save","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=library","keywords":["template","section","page","library"]},"system-info":{"title":"Informaci\u00f3n del sistema","icon":"info-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-system-info","keywords":["system","info","environment","elementor"]},"role-manager":{"title":"Gestor de perfiles","icon":"person","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-role-manager","keywords":["role","manager","user","elementor"]},"knowledge-base":{"title":"Base de conocimiento","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=go_knowledge_base_site","keywords":["help","knowledge","docs","elementor"]},"theme-builder":{"title":"Maquetador de temas","icon":"library-save","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-app&ver=3.27.6#\/site-editor","keywords":["template","header","footer","single","archive","search","404","library"]},"kit-library":{"title":"Biblioteca de kits","icon":"kit-parts","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-app&ver=3.27.6#\/kit-library","keywords":["kit library","kit","library","site parts","parts","assets","templates"]},"popups":{"title":"Mensajes emergentes","icon":"library-save","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=popup&elementor_library_type=popup","keywords":["template","popup","library"]}},"name":"general"},"create":{"title":"Crear","dynamic":false,"items":{"page":{"title":"A\u00f1adir una nueva plantilla de p\u00e1gina","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=page&_wpnonce=c75c6a415a","keywords":["A\u00f1adir una nueva plantilla de p\u00e1gina","post","page","template","new","create"]},"section":{"title":"A\u00f1adir nueva Secci\u00f3n","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=section","keywords":["A\u00f1adir nueva Secci\u00f3n","post","page","template","new","create"]},"container":{"title":"A\u00f1adir nueva Contenedor","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&template_type=container&_wpnonce=c75c6a415a","keywords":["A\u00f1adir nueva Contenedor","post","page","template","new","create"]},"wp-post":{"title":"A\u00f1adir nueva Entrada","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=post&template_type=wp-post&_wpnonce=c75c6a415a","keywords":["A\u00f1adir nueva Entrada","post","page","template","new","create"]},"wp-page":{"title":"A\u00f1adir nueva P\u00e1gina","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=page&template_type=wp-page&_wpnonce=c75c6a415a","keywords":["A\u00f1adir nueva P\u00e1gina","post","page","template","new","create"]},"landing-page":{"title":"A\u00f1adir nueva P\u00e1gina de destino","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=c75c6a415a#library","keywords":["A\u00f1adir nueva P\u00e1gina de destino","post","page","template","new","create"]},"floating-buttons":{"title":"A\u00f1adir nueva Floating Element","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=floating-buttons","keywords":["A\u00f1adir nueva Floating Element","post","page","template","new","create"]},"popup":{"title":"A\u00f1adir nueva Ventana emergente","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=popup","keywords":["A\u00f1adir nueva Ventana emergente","post","page","template","new","create"]},"header":{"title":"A\u00f1adir nueva Cabecera","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=header","keywords":["A\u00f1adir nueva Cabecera","post","page","template","new","create"]},"footer":{"title":"A\u00f1adir nueva Pie de p\u00e1gina","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=footer","keywords":["A\u00f1adir nueva Pie de p\u00e1gina","post","page","template","new","create"]},"single":{"title":"A\u00f1adir nueva Individual","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=single","keywords":["A\u00f1adir nueva Individual","post","page","template","new","create"]},"single-post":{"title":"A\u00f1adir nueva Entrada individual","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=single-post","keywords":["A\u00f1adir nueva Entrada individual","post","page","template","new","create"]},"single-page":{"title":"A\u00f1adir nueva P\u00e1gina individual","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=single-page&_elementor_template_sub_type=page","keywords":["A\u00f1adir nueva P\u00e1gina individual","post","page","template","new","create"]},"archive":{"title":"A\u00f1adir nueva Archivo","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=archive","keywords":["A\u00f1adir nueva Archivo","post","page","template","new","create"]},"search-results":{"title":"A\u00f1adir nueva Resultados de b\u00fasqueda","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=search-results&_elementor_template_sub_type=search","keywords":["A\u00f1adir nueva Resultados de b\u00fasqueda","post","page","template","new","create"]},"error-404":{"title":"A\u00f1adir nueva Error 404","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=error-404&_elementor_template_sub_type=not_found404","keywords":["A\u00f1adir nueva Error 404","post","page","template","new","create"]},"code_snippet":{"title":"A\u00f1adir nueva C\u00f3digo personalizado","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/post-new.php?post_type=elementor_snippet","keywords":["A\u00f1adir nueva C\u00f3digo personalizado","post","page","template","new","create"]},"product-post":{"title":"A\u00f1adir nueva Entrada del producto","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=product&template_type=wp-post&_wpnonce=c75c6a415a","keywords":["A\u00f1adir nueva Entrada del producto","post","page","template","new","create"]},"product":{"title":"A\u00f1adir nueva Producto \u00fanico","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=product","keywords":["A\u00f1adir nueva Producto \u00fanico","post","page","template","new","create"]},"product-archive":{"title":"A\u00f1adir nueva Archivo de productos","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=product-archive","keywords":["A\u00f1adir nueva Archivo de productos","post","page","template","new","create"]},"loop-item":{"title":"A\u00f1adir nueva Elemento de bucle","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?action=elementor_new_post&post_type=elementor_library&_wpnonce=c75c6a415a&template_type=loop-item","keywords":["A\u00f1adir nueva Elemento de bucle","post","page","template","new","create"]},"theme-template":{"title":"A\u00f1adir nueva plantilla de tema","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-app&ver=3.27.6#\/site-editor\/add-new","keywords":["template","theme","new","create"]},"loop-template":{"title":"A\u00f1adir nueva plantilla de bucle","icon":"plus-circle-o","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme&elementor_library_type=loop-item#add_new","keywords":["template","theme","new","create","loop","dynamic","listing","archive","repeater"]}},"name":"create"},"site":{"title":"Sitio","dynamic":false,"items":{"homepage":{"title":"P\u00e1gina de inicio","url":"https:\/\/www.asemed.org","icon":"home-heart","keywords":["home","page"]},"wordpress-dashboard":{"title":"Escritorio","icon":"dashboard","url":"https:\/\/www.asemed.org\/wp-admin\/","keywords":["dashboard","wordpress"]},"wordpress-menus":{"title":"Men\u00fas","icon":"wordpress","url":"https:\/\/www.asemed.org\/wp-admin\/nav-menus.php","keywords":["menu","wordpress"]},"wordpress-themes":{"title":"Temas","icon":"wordpress","url":"https:\/\/www.asemed.org\/wp-admin\/themes.php","keywords":["themes","wordpress"]},"wordpress-customizer":{"title":"Personalizador","icon":"wordpress","url":"https:\/\/www.asemed.org\/wp-admin\/customize.php","keywords":["customizer","wordpress"]},"wordpress-plugins":{"title":"Plugins","icon":"wordpress","url":"https:\/\/www.asemed.org\/wp-admin\/plugins.php","keywords":["plugins","wordpress"]},"wordpress-users":{"title":"Usuarios","icon":"wordpress","url":"https:\/\/www.asemed.org\/wp-admin\/users.php","keywords":["users","profile","wordpress"]},"apps":{"title":"Extensiones","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-apps","icon":"apps","keywords":["apps","addon","plugin","extension","integration"]}},"name":"site"},"settings":{"title":"Ajustes","dynamic":false,"items":{"general-settings":{"title":"Ajustes generales","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-settings#tab-general","keywords":["general","settings","elementor"]},"integrations":{"title":"Integraciones","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-settings#tab-integrations","keywords":["integrations","settings","elementor"]},"advanced":{"title":"Avanzado","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-settings#tab-advanced","keywords":["advanced","settings","elementor"]},"performance":{"title":"Rendimiento","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-settings#tab-performance","keywords":["performance","settings","elementor"]},"experiments":{"title":"Experimentos","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-settings#tab-experiments","keywords":["settings","elementor","experiments"]},"features":{"title":"Caracteristicas","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-settings#tab-experiments","keywords":["settings","elementor","features"]},"element-manager":{"title":"Gestor de elementos","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-element-manager","keywords":["settings","elements","widgets","manager"]},"custom-fonts":{"title":"Tipograf\u00edas personalizadas","icon":"typography","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?post_type=elementor_font","keywords":["custom","fonts","elementor"]},"custom-icons":{"title":"Iconos personalizados","icon":"favorite","url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?post_type=elementor_icons","keywords":["custom","icons","elementor"]}},"name":"settings"},"tools":{"title":"Herramientas","dynamic":false,"items":{"tools":{"title":"Herramientas","icon":"tools","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-tools","keywords":["tools","regenerate css","safe mode","debug bar","sync library","elementor"]},"replace-url":{"title":"Reemplazar URL","icon":"tools","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-tools#tab-replace_url","keywords":["tools","replace url","domain","elementor"]},"maintenance-mode":{"title":"Modo de mantenimiento","icon":"tools","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-tools#tab-maintenance_mode","keywords":["tools","maintenance","coming soon","elementor"]},"import-export":{"title":"Importar \/ Exportar","icon":"import-export","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-tools#tab-import-export-kit","keywords":["tools","import export","import","export","kit"]},"version-control":{"title":"Control de versiones","icon":"time-line","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-tools#tab-versions","keywords":["tools","version","control","rollback","beta","elementor"]}},"name":"tools"},"joinchat":{"title":"Joinchat","dynamic":false,"items":{"general":{"title":"Ajustes generales","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=joinchat","icon":"settings","keywords":["joinchat","whatsapp","ajustes","telefono"],"description":"P\u00e1gina de ajustes de Joinchat"},"visibility":{"title":"Ajustes de visibilidad","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=joinchat&tab=visibility","icon":"eye","keywords":["joinchat","whatsapp","visibilidad","mostrar","ocultar"],"description":"P\u00e1gina de ajustes de Joinchat"},"woocommerce":{"title":"Ajustes de WooCommerce","url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=joinchat&tab=woocommerce","icon":"woocommerce","keywords":["joinchat","whatsapp","woocommerce","tienda","producto"],"description":"P\u00e1gina de ajustes de Joinchat"}},"name":"joinchat"}}},"connect":[],"event-tracker":{"isUserDataShared":true}};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/common.min.js?ver=3.27.6" id="elementor-common-js"></script>
+<script id="elementor-app-loader-js-before">
+var elementorAppConfig = {"menu_url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-app&ver=3.27.6#\/site-editor","assets_url":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor\/assets\/","pages_url":"https:\/\/www.asemed.org\/wp-admin\/edit.php?post_type=page","return_url":"https:\/\/www.asemed.org\/wp-admin\/","hasPro":true,"admin_url":"https:\/\/www.asemed.org\/wp-admin\/","login_url":"https:\/\/www.asemed.org\/wp-login.php","base_url":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-app&ver=3.27.6","promotion":{"upgrade_url":"https:\/\/go.elementor.com\/go-pro-theme-builder\/"},"site-editor":[],"import-export":[],"kit-library":[],"onboarding":[]};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.27.6" id="elementor-app-loader-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.27.5" id="elementor-pro-webpack-runtime-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.27.6" id="elementor-webpack-runtime-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.27.6" id="elementor-frontend-modules-js"></script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/www.asemed.org\/wp-admin\/admin-ajax.php","nonce":"b49f2e7363","urls":{"assets":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/www.asemed.org\/wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":false},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"woocommerce":{"menu_cart":{"cart_page_url":"https:\/\/www.asemed.org\/pago\/","checkout_page_url":"https:\/\/www.asemed.org\/pago\/","fragments_nonce":"fd4bd26bd1"}},"facebook_sdk":{"lang":"es_ES","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.27.5" id="elementor-pro-frontend-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":true,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Compartir en Facebook","shareOnTwitter":"Compartir en Twitter","pinIt":"Pinear","download":"Descargar","downloadImage":"Descargar imagen","fullscreen":"Pantalla completa","zoom":"Zoom","share":"Compartir","playVideo":"Reproducir v\u00eddeo","previous":"Anterior","next":"Siguiente","close":"Cerrar","a11yCarouselPrevSlideMessage":"Diapositiva anterior","a11yCarouselNextSlideMessage":"Diapositiva siguiente","a11yCarouselFirstSlideMessage":"Esta es la primera diapositiva","a11yCarouselLastSlideMessage":"Esta es la \u00faltima diapositiva","a11yCarouselPaginationBulletMessage":"Ir a la diapositiva"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"M\u00f3vil vertical","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"M\u00f3vil horizontal","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tableta vertical","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tableta horizontal","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Port\u00e1til","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Pantalla grande","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.27.6","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"e_swiper_latest":true,"e_onboarding":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"home_screen":true,"landing-pages":true,"nested-elements":true,"editor_v2":true,"link-in-bio":true,"floating-buttons":true},"urls":{"assets":"https:\/\/www.asemed.org\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/www.asemed.org\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/www.asemed.org\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"414c8873a1"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"body_background_background":"classic","active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[],"hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":0,"title":"Pago &#8211; asemed","excerpt":"<p>Aqu\u00ed es donde puedes ver los productos en esta tienda.<\/p>\n"},"user":{"roles":["administrator"]}};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.27.6" id="elementor-frontend-js"></script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.27.5" id="pro-elements-handlers-js"></script>
+<script id="elementor-admin-bar-js-before">
+var elementorAdminBarConfig = {"elementor_edit_page":{"id":"elementor_edit_page","title":"Editar con Elementor","href":null,"children":{"22":{"id":"elementor_edit_doc_22","title":"Header","sub_title":"Cabecera","href":"https:\/\/www.asemed.org\/wp-admin\/post.php?post=22&action=elementor"},"2540":{"id":"elementor_edit_doc_2540","title":"Archivo de productos de cursos","sub_title":"Archivo de productos","href":"https:\/\/www.asemed.org\/wp-admin\/post.php?post=2540&action=elementor"},"2449":{"id":"elementor_edit_doc_2449","title":"Bucle de productos de cursos","sub_title":"Elemento de bucle","href":"https:\/\/www.asemed.org\/wp-admin\/post.php?post=2449&action=elementor"},"1414":{"id":"elementor_edit_doc_1414","title":"Elementor Pie de p\u00e1gina #1414","sub_title":"Pie de p\u00e1gina","href":"https:\/\/www.asemed.org\/wp-admin\/post.php?post=1414&action=elementor"},"2541":{"id":"elementor_site_settings","title":"Ajustes del sitio","sub_title":"Sitio","href":"https:\/\/www.asemed.org\/wp-admin\/post.php?post=3530&action=elementor&active-document=8","class":"elementor-site-settings","parent_class":"elementor-second-section"},"2542":{"id":"elementor_app_site_editor","title":"Maquetador de temas","sub_title":"Sitio","href":"https:\/\/www.asemed.org\/wp-admin\/admin.php?page=elementor-app&ver=3.27.6#\/site-editor","class":"elementor-app-link","parent_class":"elementor-second-section"}}}};
+</script>
+<script src="https://www.asemed.org/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.27.6" id="elementor-admin-bar-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js"></script>
+<script src="https://www.asemed.org/wp-includes/js/admin-bar.min.js?ver=6.7.2" id="admin-bar-js"></script>
+
+</body>
+</html>
